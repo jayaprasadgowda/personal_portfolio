@@ -1,0 +1,16 @@
+/* CustomHeader.css (or in your component) */
+.header-menu-left {
+    float: left;
+  }
+  
+  .header-menu-right {
+    float: right;
+  }
+  
+  @media (max-width: 768px) {
+    .header-menu-left,
+    .header-menu-right {
+      float: none;
+    }
+  }
+  
